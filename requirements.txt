@@ -1,0 +1,6 @@
+playwright
+playwright-stealth
+
+fastapi
+uvicorn
+jinja2
