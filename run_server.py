@@ -25,7 +25,7 @@ def main():
     run_command([sys.executable, "-m", "playwright", "install", "chromium"])
 
     # 3. Start the server
-    print("\n✨ Starting FastAPI Server on http://127.0.0.1:5000")
+    print("\n✨ Starting FastAPI Server on http://localhost:5000")
     print("📁 Search Config:", os.path.abspath("search_config.json"))
     print("💡 Press Ctrl+C to stop the server.\n")
     
@@ -33,7 +33,7 @@ def main():
     time.sleep(1)
     
     # Open the browser automatically
-    webbrowser.open("http://127.0.0.1:5000")
+    webbrowser.open("http://localhost:5000")
     
     # Run the app
     try:
